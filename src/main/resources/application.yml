@@ -3,4 +3,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://lando:LandoWolf10@dw-customer-service.20p771h.mongodb.net/dw-customer-service?retryWrites=true&w=majority/
+      uri: mongodb+srv://lando:LandoWolf10@dw-wallet-service.eftyfnj.mongodb.net/dw-customer-service?retryWrites=true&w=majority/
