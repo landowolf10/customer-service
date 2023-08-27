@@ -8,10 +8,10 @@ public class CustomerTypeDocument {
 
     public CustomerTypeDocument(String value) {
         this.value = value;
-        this.ensureIsTypeDocument(value);
+        this.ensureIsValidTypeDocument(value);
     }
 
-    private void ensureIsTypeDocument(String value) {
+    private void ensureIsValidTypeDocument(String value) {
         List<String> typeDocumentList = Arrays.asList("DNI", "RUC");
         if (!typeDocumentList.contains(this.value)) {
             throw new RuntimeException();

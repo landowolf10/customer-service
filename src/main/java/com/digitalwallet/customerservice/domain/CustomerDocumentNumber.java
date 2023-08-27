@@ -9,10 +9,12 @@ public class CustomerDocumentNumber {
     }
 
     private void ensureIsValidDocumentNumber(String value) {
+        if (!value.matches("[0-9]{9}")) {
+            throw new RuntimeException();
+        }
 
-
-        if (!value.matches(validEmailRegex)) {
-            throw new RuntimeException("Email value is invalid");
+        if (!value.matches("10[0-9]{9}")) {
+            throw new RuntimeException();
         }
     }
 }
