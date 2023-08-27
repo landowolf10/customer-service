@@ -1,0 +1,6 @@
+server:
+  port: 9000
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://lando:LandoWolf10@wallet.bvlsqt4.mongodb.net/wallet?retryWrites=true&w=majority/
