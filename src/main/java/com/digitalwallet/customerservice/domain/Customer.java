@@ -5,6 +5,8 @@ public class Customer {
     private CustomerPhoneNumber phoneNumber;
     private CustomerTypeDocument typeDocument;
     private  CustomerEmail email;
+    private String name;
+    private String sureName;
 
     public Customer(String documentNumber, String phoneNumber, String typeDocument, String email) {
         this.documentNumber = new CustomerDocumentNumber(documentNumber);
